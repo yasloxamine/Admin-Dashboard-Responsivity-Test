@@ -1,5 +1,5 @@
 body {
-  background-color: #e8e8e8;
+  background-color: #EEEEEE;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -36,11 +36,7 @@ h1 {
   background-color: white;
   padding: 5px 10px;
   border-radius: 0.2rem;
-  box-shadow: 1px 1px 10px 1px grey;
-}
-
-.grid-item:hover {
-  box-shadow: 1px 1px 10px 3px grey;
+  
 }
 
 .detailed-graphs-div {
@@ -59,21 +55,8 @@ h1 {
   }
 
   .Hero {
-    padding: 80px;
+    padding: 100px 30px;
   }
 }
 
-@media screen and (max-width: 750px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-  }
-  .detailed-graphs-div {
-    order: 1;
-    grid-column: span 1;
-  }
 
-  .Hero {
-    padding: 30px;
-  }
-}
